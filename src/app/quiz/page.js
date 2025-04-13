@@ -8,7 +8,7 @@ export default function QuizPage() {
     <main className="min-h-screen p-8">
       <Link 
         href="/" 
-        className="inline-block mb-4 text-blue-600 underline hover:text-blue-800"
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition"
       >
         ← Back to Home
       </Link>

@@ -31,8 +31,8 @@ export default function QuizApp() {
     {
       id: 5,
       question: "Which of these is true??",
-      options: ["Wants are unlimited, resources are unlimited","Wants are limited,resources are limited", "Wants are unlimited, resources are limited","Wants are limited, resources are unlimited"],
-      correctAnswer: "Wants are limited, resources are limited"
+      options: ["Wants are unlimited, resources are unlimited","Wants are limited, resources are limited", "Wants are unlimited, resources are limited","Wants are limited, resources are unlimited"],
+      correctAnswer: "Wants are unlimited, resources are limited"
     },
     {
       id: 6,
@@ -158,6 +158,7 @@ export default function QuizApp() {
           >
             Take Quiz Again
           </button>
+          
         </div>
       )}
     </div>
