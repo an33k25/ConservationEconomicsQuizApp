@@ -5,71 +5,67 @@ import { useState } from 'react';
 export default function QuizApp12() {
   const quizQuestions = [
     
-      {
-        id: 1,
-        question: "Which of these is a deterministic factor?",
-        options: ["environmental variation", "forest fire", "death rate", "diseases"],
-        correctAnswer: "death rate"
-      },
-      {
-        id: 2,
-        question: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
-        options: ["autophagy", "allelophagy", "autopathy", "allelopathy"],
-        correctAnswer: "allelopathy"
-      },
-      {
-        id: 3,
-        question: "The movement of lions across the Gir landscape is an example of",
-        options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
-        correctAnswer: "diffusion"
-      },
-      {
-        id: 4,
-        question: "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
-        options: ["Liebig’s law of the minimum", "Liebig’s law of the maximum", "Shelford’s law of tolerance", "Shelford’s law of intolerance"],
-        correctAnswer: "Shelford’s law of tolerance"
-      },
-      {
-        id: 5,
-        question: "The regular, seasonal movement of animals, often along fixed routes is called",
-        options: ["translocation", "migration", "dispersal", "drifting"],
-        correctAnswer: "migration"
-      },
-      {
-        id: 6,
-        question: "Which of these is a stochastic factor?",
-        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
-        correctAnswer: "environmental fluctuation"
-      },
-      {
-        id: 7,
-        question: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
-        options: ["translocation", "migration", "dispersal", "drifting"],
-        correctAnswer: "dispersal"
-      },
-      {
-        id: 8,
-        question: "Scarcity of food is a",
-        options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
-        correctAnswer: "push factor"
-      },
-      {
-        id: 9,
-        question: "Which of these correctly represents the process of habitat fragmentation and loss?",
-        options: [
-          "Original forest → Dissection → Perforation → Fragmentation → Attrition",
-          "Original forest → Dissection → Attrition → Fragmentation → Perforation",
-          "Original forest → Dissection → Perforation → Attrition → Fragmentation",
-          "Original forest → Dissection → Fragmentation → Perforation → Attrition"
-        ],
-        correctAnswer: "Original forest → Dissection → Perforation → Fragmentation → Attrition"
-      },
-      {
-        id: 10,
-        question: "A root zone treatment plant is an example of",
-        options: ["phytoremediation", "biological control", "biomagnification", "bioaccumulation"],
-        correctAnswer: "phytoremediation"
-      }
+      
+        {
+          "id": 1,
+          "question": "As per Wildlife Protection Act 1972 (WPA 1972), wild life includes any animal, aquatic or land vegetation which forms part of any _____ .",
+          "options": ["ecosystem", "state", "country", "habitat"],
+          "correctAnswer": "habitat"
+        },
+        {
+          "id": 2,
+          "question": "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+          "options": ["umbrella species", "keystone species", "flagship species", "all of the above"],
+          "correctAnswer": "all of the above"
+        },
+        {
+          "id": 3,
+          "question": "Soil formation is an example of",
+          "options": ["provisioning service", "regulating service", "supporting service", "cultural service"],
+          "correctAnswer": "supporting service"
+        },
+        {
+          "id": 4,
+          "question": "Zoo is an example of",
+          "options": ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+          "correctAnswer": "ex-situ conservation"
+        },
+        {
+          "id": 5,
+          "question": "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+          "options": ["least concern species", "keystone species", "flagship species", "extinct species"],
+          "correctAnswer": "keystone species"
+        },
+        {
+          "id": 6,
+          "question": "Nutrient cycling is an example of",
+          "options": ["provisioning service", "regulating service", "supporting service", "cultural service"],
+          "correctAnswer": "supporting service"
+        },
+        {
+          "id": 7,
+          "question": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+          "options": ["umbrella species", "keystone species", "flagship species", "extinct species"],
+          "correctAnswer": "flagship species"
+        },
+        {
+          "id": 8,
+          "question": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+          "options": ["very high", "medium", "very low", "non-existent"],
+          "correctAnswer": "medium"
+        },
+        {
+          "id": 9,
+          "question": "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
+          "options": ["umbrella species", "keystone species", "flagship species", "all of the above"],
+          "correctAnswer": "all of the above"
+        },
+        {
+          "id": 10,
+          "question": "Biological control of pest populations is an example of",
+          "options": ["provisioning service", "regulating service", "supporting service", "cultural service"],
+          "correctAnswer": "regulating service"
+        }
     
       
     

@@ -123,6 +123,13 @@ export default function Home() {
         >
           Start Week 12 Quiz
         </Link>
+        <Link
+          href="/combined"
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition"
+        >
+          Combined All Weeks
+
+          </Link>
       </div>
       <footer className="mt-12 mx-auto text-center">Excel in the NPTEL Conservation Economics course content and succeed in your FAT exam using the dedicated quiz application.  </footer>
       <div className="mt-4 flex gap-2">

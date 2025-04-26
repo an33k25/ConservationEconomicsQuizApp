@@ -5,71 +5,66 @@ import { useState } from 'react';
 export default function QuizApp11() {
   const quizQuestions = [
     
-      {
-        id: 1,
-        question: "Which of these is a deterministic factor?",
-        options: ["environmental variation", "forest fire", "death rate", "diseases"],
-        correctAnswer: "death rate"
-      },
-      {
-        id: 2,
-        question: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
-        options: ["autophagy", "allelophagy", "autopathy", "allelopathy"],
-        correctAnswer: "allelopathy"
-      },
-      {
-        id: 3,
-        question: "The movement of lions across the Gir landscape is an example of",
-        options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
-        correctAnswer: "diffusion"
-      },
-      {
-        id: 4,
-        question: "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
-        options: ["Liebig’s law of the minimum", "Liebig’s law of the maximum", "Shelford’s law of tolerance", "Shelford’s law of intolerance"],
-        correctAnswer: "Shelford’s law of tolerance"
-      },
-      {
-        id: 5,
-        question: "The regular, seasonal movement of animals, often along fixed routes is called",
-        options: ["translocation", "migration", "dispersal", "drifting"],
-        correctAnswer: "migration"
-      },
-      {
-        id: 6,
-        question: "Which of these is a stochastic factor?",
-        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
-        correctAnswer: "environmental fluctuation"
-      },
-      {
-        id: 7,
-        question: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
-        options: ["translocation", "migration", "dispersal", "drifting"],
-        correctAnswer: "dispersal"
-      },
-      {
-        id: 8,
-        question: "Scarcity of food is a",
-        options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
-        correctAnswer: "push factor"
-      },
-      {
-        id: 9,
-        question: "Which of these correctly represents the process of habitat fragmentation and loss?",
-        options: [
-          "Original forest → Dissection → Perforation → Fragmentation → Attrition",
-          "Original forest → Dissection → Attrition → Fragmentation → Perforation",
-          "Original forest → Dissection → Perforation → Attrition → Fragmentation",
-          "Original forest → Dissection → Fragmentation → Perforation → Attrition"
-        ],
-        correctAnswer: "Original forest → Dissection → Perforation → Fragmentation → Attrition"
-      },
-      {
-        id: 10,
-        question: "A root zone treatment plant is an example of",
-        options: ["phytoremediation", "biological control", "biomagnification", "bioaccumulation"],
-        correctAnswer: "phytoremediation"
-      }
+    {
+      "id": 1,
+      "question": "“An action taken by an uninformed party to induce an informed party to reveal information” is known as",
+      "options": ["signalling", "screening", "informing", "heuristics"],
+      "correctAnswer": "screening"
+    },
+    {
+      "id": 2,
+      "question": "“The part of actual resources that can be developed profitably in the future” are",
+      "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+      "correctAnswer": "reserve resources"
+    },
+    {
+      "id": 3,
+      "question": "“The limit on the consumption bundles that a consumer can afford” is known as",
+      "options": ["consumption constraint", "budget constraint", "bundle constraint", "affordability constraint"],
+      "correctAnswer": "budget constraint"
+    },
+    {
+      "id": 4,
+      "question": "“Mental short cut using emotion (gut feeling) to influences the decision” is",
+      "options": ["affect heuristic", "availability heuristic", "effort heuristic", "familiarity heuristic"],
+      "correctAnswer": "affect heuristic"
+    },
+    {
+      "id": 5,
+      "question": "“Those resources that are currently being used after surveying, quantification and qualification” are",
+      "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+      "correctAnswer": "actual resources"
+    },
+    {
+      "id": 6,
+      "question": "“The change in consumption that results when a price change moves the consumer along a given indifference curve to a point with a new marginal rate of substitution” is known as",
+      "options": ["income effect", "substitution effect", "indifference effect", "budget effect"],
+      "correctAnswer": "substitution effect"
+    },
+    {
+      "id": 7,
+      "question": "An inferior good whose demand increases with price is called as",
+      "options": ["Normal good", "Veblen good", "Giffen good", "Demand good"],
+      "correctAnswer": "Giffen good"
+    },
+    {
+      "id": 8,
+      "question": "Which of these is not a property of indifference curves?",
+      "options": ["Higher indifference curves are preferred to lower ones", "Indifference curves are downward-sloping", "Indifference curves cross at right angles", "Indifference curves are bowed inwards"],
+      "correctAnswer": "Indifference curves cross at right angles"
+    },
+    {
+      "id": 9,
+      "question": "“An action taken by an informed party to reveal private information to an uninformed party” is known as",
+      "options": ["signalling", "screening", "informing", "heuristics"],
+      "correctAnswer": "signalling"
+    },
+    {
+      "id": 10,
+      "question": "“Simple strategies or mental processes used to quickly form judgments, make decisions, and find solutions to complex problems” is known as",
+      "options": ["signalling", "screening", "informing", "heuristics"],
+      "correctAnswer": "heuristics"
+    }
     
       
     
